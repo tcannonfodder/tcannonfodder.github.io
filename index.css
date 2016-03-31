@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+body{
+  margin: 0;
+  text-transform: uppercase;
+}
+
+#letters{
+  height: 90vh;
+  background: black;
+  color: white;
+  font-size: 70vh;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+#word{
+  height: 10vh;
+  font-size: 8vh;
+}
