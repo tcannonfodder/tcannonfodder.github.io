@@ -14,7 +14,7 @@
 </div>
 
 <script type="text/javascript">
-  var characters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+  var characters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "-"]
   var index = 0
   var letters = document.getElementById('letters')
   var word = document.getElementById('word')
@@ -58,11 +58,15 @@
 </script>
 
 <style type="text/css">
+body{
+  text-transform: uppercase;
+}
   #letters{
     height: 300px;
-    background: green;
+    /*background: green;*/
     font-size: 300px;
     display: block;
+    font-weight: bold;
   }
 
   #word{
