@@ -50,7 +50,7 @@
   });
 
   hammertime.on('tap', function(ev) {
-    // if (ev.tapCount < 2){return}
+    if (ev.tapCount < 2){return}
     string = string + currentCharacter()
     word.innerHTML = string
   })
