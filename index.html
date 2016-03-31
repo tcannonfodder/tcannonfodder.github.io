@@ -50,7 +50,7 @@
   });
 
   hammertime.on('tap', function(ev) {
-    if (ev.tapCount < 2){return}
+    // if (ev.tapCount < 2){return}
     string = string + currentCharacter()
     word.innerHTML = string
   })
@@ -62,15 +62,16 @@ body{
   text-transform: uppercase;
 }
   #letters{
-    height: 300px;
-    /*background: green;*/
-    font-size: 300px;
+    height: 900px;
+    background: black;
+    color: white;
+    font-size: 900px;
     display: block;
     font-weight: bold;
   }
 
   #word{
-    height: 100px;
+    height: 120px;
     font-size: 100px;
   }
 
